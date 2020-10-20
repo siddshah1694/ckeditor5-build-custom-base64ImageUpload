@@ -13,11 +13,9 @@ import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolo
 import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor.js';
 import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily.js';
 import FontSize from '@ckeditor/ckeditor5-font/src/fontsize.js';
-import Heading from '@ckeditor/ckeditor5-heading/src/heading.js';
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight.js';
 import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline.js';
 import Image from '@ckeditor/ckeditor5-image/src/image.js';
-import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption.js';
 import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize.js';
 import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle.js';
 import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar.js';
@@ -29,8 +27,10 @@ import Link from '@ckeditor/ckeditor5-link/src/link.js';
 import List from '@ckeditor/ckeditor5-list/src/list.js';
 import ListStyle from '@ckeditor/ckeditor5-list/src/liststyle.js';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph.js';
+import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough.js';
 import Subscript from '@ckeditor/ckeditor5-basic-styles/src/subscript.js';
+import Superscript from '@ckeditor/ckeditor5-basic-styles/src/superscript.js';
 import Table from '@ckeditor/ckeditor5-table/src/table.js';
 import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
 import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
@@ -54,11 +54,9 @@ Editor.builtinPlugins = [
 	FontColor,
 	FontFamily,
 	FontSize,
-	Heading,
 	Highlight,
 	HorizontalLine,
 	Image,
-	ImageCaption,
 	ImageResize,
 	ImageStyle,
 	ImageToolbar,
@@ -70,8 +68,10 @@ Editor.builtinPlugins = [
 	List,
 	ListStyle,
 	Paragraph,
+	PasteFromOffice,
 	Strikethrough,
 	Subscript,
+	Superscript,
 	Table,
 	TableCellProperties,
 	TableProperties,
