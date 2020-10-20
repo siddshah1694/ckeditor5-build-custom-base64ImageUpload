@@ -13,6 +13,7 @@ import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolo
 import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor.js';
 import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily.js';
 import FontSize from '@ckeditor/ckeditor5-font/src/fontsize.js';
+import Heading from '@ckeditor/ckeditor5-heading/src/heading.js';
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight.js';
 import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline.js';
 import Image from '@ckeditor/ckeditor5-image/src/image.js';
@@ -36,7 +37,6 @@ import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperti
 import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
-import Title from '@ckeditor/ckeditor5-heading/src/title.js';
 import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
 
@@ -54,6 +54,7 @@ Editor.builtinPlugins = [
 	FontColor,
 	FontFamily,
 	FontSize,
+	Heading,
 	Highlight,
 	HorizontalLine,
 	Image,
@@ -77,7 +78,6 @@ Editor.builtinPlugins = [
 	TableProperties,
 	TableToolbar,
 	TextTransformation,
-	Title,
 	TodoList,
 	Underline
 ];
