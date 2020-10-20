@@ -1,6 +1,6 @@
 {
   "name": "ckeditor5-build-custom-base64imageupload",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "This package includes all features of classic editor for ck editor5 as well as image upload with base64 inside ck editor itself. ",
   "main": "build/ckeditor.js",
   "scripts": {
